@@ -1,0 +1,41 @@
+(base) alex@Chauncey-s-S21-Ultra ~ % cd git
+(base) alex@Chauncey-s-S21-Ultra git % ls
+Computational-Social-Science-Training-Program
+challenge2_repo
+git-challenges
+my_first_repo
+myfork_Computational-Social-Science-Training-Program
+(base) alex@Chauncey-s-S21-Ultra git % git clone 
+https://github.com/schultea12/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(base) alex@Chauncey-s-S21-Ultra git % ls
+Computational-Social-Science-Projects
+Computational-Social-Science-Training-Program
+challenge2_repo
+git-challenges
+my_first_repo
+myfork_Computational-Social-Science-Training-Program
+(base) alex@Chauncey-s-S21-Ultra git % cd 
+Computational-Social-Science-Projects
+(base) alex@Chauncey-s-S21-Ultra Computational-Social-Science-Projects % ls
+README.md
+(base) alex@Chauncey-s-S21-Ultra Computational-Social-Science-Projects % mkdir 
+"Project 1"
+(base) alex@Chauncey-s-S21-Ultra Computational-Social-Science-Projects % ls
+Project 1	README.md
+(base) alex@Chauncey-s-S21-Ultra Computational-Social-Science-Projects % cd 
+Project\ 1
+(base) alex@Chauncey-s-S21-Ultra Project 1 % ls
+(base) alex@Chauncey-s-S21-Ultra Project 1 % touch commands.txt
+(base) alex@Chauncey-s-S21-Ultra Project 1 % ls
+commands.txt
+(base) alex@Chauncey-s-S21-Ultra Project 1 % nano commands.txt 
+(base) alex@Chauncey-s-S21-Ultra Project 1 % git add commands.txt
+(base) alex@Chauncey-s-S21-Ultra Project 1 % git commit -m “Adding txt file 
+for Project 1”
+(base) alex@Chauncey-s-S21-Ultra Project 1 % git push  
